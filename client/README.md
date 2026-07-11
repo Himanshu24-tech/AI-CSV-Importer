@@ -1,18 +1,121 @@
-# React + Vite
+# 🤖 AI CSV Importer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An AI-powered CSV Importer built using React and Node.js that allows users to upload CSV files, preview data, automatically map CSV columns to CRM fields, and import data efficiently.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+- 📂 Drag & Drop CSV Upload
+- 📄 CSV Preview
+- 🤖 Automatic Column Mapping
+- ✏️ Manual Mapping Support
+- 📥 Import Data
+- 📜 Import History (Local Storage)
+- 🎨 Responsive UI
+- ⚡ Fast React + Vite Frontend
+- 🌐 Express Backend
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+---
 
-Note: This will impact Vite dev & build performances.
+## 🛠 Tech Stack
 
-## Expanding the ESLint configuration
+### Frontend
+- React.js
+- Vite
+- Tailwind CSS
+- PapaParse
+- React Dropzone
+- Axios
+- React Hot Toast
+- Lucide React
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Backend
+- Node.js
+- Express.js
+- CORS
+
+### Database
+- MongoDB Atlas (planned)
+
+---
+
+## 📁 Project Structure
+
+```
+AI-CSV-Importer
+│
+├── client
+│   ├── src
+│   │   ├── components
+│   │   ├── pages
+│   │   ├── utils
+│   │   └── App.jsx
+│   │
+│   └── package.json
+│
+├── server
+│   ├── config
+│   ├── routes
+│   ├── server.js
+│   └── package.json
+│
+└── README.md
+```
+
+---
+
+## Installation
+
+### Clone Repository
+
+
+
+```bash
+git clone https://github.com/Himanshu24-tech/AI-CSV-Importer.git
+```
+
+### Frontend
+
+```bash
+cd client
+npm install
+npm run dev
+```
+
+### Backend
+
+```bash
+cd server
+npm install
+npm run dev
+```
+
+---
+
+## Workflow
+
+1. Upload CSV
+2. Preview Data
+3. Auto Map Columns
+4. Review Mapping
+5. Import Data
+6. View Import History
+
+---
+
+## Future Enhancements
+
+- Gemini AI Integration
+- MongoDB Storage
+- Authentication
+- Duplicate Detection
+- Dashboard Analytics
+
+---
+
+## Author
+
+**Himanshu Pardhi**
+
+B.Tech Artificial Intelligence
